@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+  />
+     <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+/>
+   <link rel="stylesheet" href="all/reset.css">
+    <link rel="stylesheet" href="all/index.css">
+    <title>index</title>
+</head>
+<body>
+    <div class="mask"></div>
+    <header class="bg-primary-50 z-1 sticky-top">
+        <nav> 
+            <div class="container">
+            <div class="d-flex align-items-center">
+                <a href="#">
+                    <picture>
+<source
+srcset="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/47001d42324ec6a2c7d00cc74ea79d70c57d578a/2026-web-camp/device-mobile.svg"
+media="(max-width: 768px)"
+/>
+                  
+                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/0163848842b749c38a767e05caabbbd18d2f6dc9/2026-web-camp/device-pc.svg" alt="logo"></a>
+     </picture>
+               <button class="menu-btn ml-auto p-12" type="button">
+    <span class="material-symbols-outlined">dehaze</span>
+</button>
+          
+                <ul class="nav-list ml-auto d-flex label-md text-neutral-700 gap-24 label-mb-sm">
+                    <li class="w-md-full"><a class="py-12 py-4" href="#">服務項目</a></li>
+                    <li class="w-md-full"><a class="py-12 py-4" href="#">專案作品</a></li>
+                    <li class="w-md-full"><a class="py-12 py-4" href="#">部落格</a></li>
+                    <li class="w-md-full"><a class="py-12 py-4" href="#">與我聯絡</a></li>
+                </ul>
+            </div> 
+            </div>
+        </nav>
+    </header>
+
+
+<!--hero 區域-->
+<section class="bg-primary-50 hero">
+
+  <!-- 左上：花朵 -->
+  <div class="hero-deco hero-flower hero-flower-left" aria-hidden="true">
+    <svg viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="1">
+        <ellipse cx="60" cy="60" rx="10" ry="52" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(15 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(30 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(45 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(60 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(75 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(90 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(105 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(120 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(135 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(150 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(165 60 60)" />
+        <circle cx="60" cy="60" r="5" />
+      </g>
+    </svg>
+  </div>
+
+  <!-- 左上：虛線曲線 -->
+  <div class="hero-deco hero-line hero-line-top" aria-hidden="true">
+    <svg viewBox="0 0 340 130">
+      <path
+        d="M 0 30 C 80 120, 150 125, 205 55 S 300 15, 340 100"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-dasharray="8 14"
+      />
+    </svg>
+  </div>
+
+  <!-- 人物圖上方：橘色不規則色塊 -->
+  <div class="hero-deco hero-blob hero-blob-top" aria-hidden="true"></div>
+
+  <!-- 左下：小花 -->
+  <div class="hero-deco hero-flower hero-flower-small" aria-hidden="true">
+    <svg viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="1">
+        <ellipse cx="60" cy="60" rx="10" ry="52" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(20 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(40 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(60 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(80 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(100 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(120 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(140 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(160 60 60)" />
+        <circle cx="60" cy="60" r="5" />
+      </g>
+    </svg>
+  </div>
+
+  <!-- 左下：虛線曲線 -->
+  <div class="hero-deco hero-line hero-line-bottom" aria-hidden="true">
+    <svg viewBox="0 0 240 130">
+      <path
+        d="M 0 110 C 65 135, 120 110, 120 55 S 175 5, 240 40"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-dasharray="8 14"
+      />
+    </svg>
+  </div>
+
+  <!-- 右下：橘色色塊 -->
+  <div class="hero-deco hero-blob hero-blob-bottom" aria-hidden="true"></div>
+
+  <!-- 右側：花朵 -->
+  <div class="hero-deco hero-flower hero-flower-right" aria-hidden="true">
+    <svg viewBox="0 0 120 120">
+      <g fill="none" stroke="currentColor" stroke-width="1">
+        <ellipse cx="60" cy="60" rx="10" ry="52" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(15 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(30 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(45 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(60 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(75 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(90 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(105 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(120 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(135 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(150 60 60)" />
+        <ellipse cx="60" cy="60" rx="10" ry="52" transform="rotate(165 60 60)" />
+        <circle cx="60" cy="60" r="5" />
+      </g>
+    </svg>
+  </div>
+
+
+
+    <div class="container h-full">
+    <div class="d-flex text-neutral-700 flex-md-col h-full">
+    <div class="col-5 m-auto col-md-12 order-md-2 py-md-24">
+
+       <h1 class="mb-24 mb-md-12">
+    <span class="d-block heading-xxxl heading-md-xl">Hello </span>
+    <span class="d-block heading-xxxl heading-md-xl">I'm Nelson</span>
+</h1>
+<p class="label-md mb-4 label-md-small">我是一個擁有 10 年經驗的 UIUX 設計師 和 前端工程師</p>
+<p class="label-md label-md-small">喜歡把美學和程式結合，打造一個又一個精美的網頁設計！</p>
+
+    <div class="label-md mt-60 mt-md-32 label-md-small">
+        <button class="py-12 px-24 text-neutral-0 bg-primary-700 rounded-full mr-24 mr-md-12"  type="button">與我聯絡</button>
+         <button class="py-12 px-24 btn-outline rounded-full" type="button">我的履歷</button>
+    </div>
+        </div>
+
+    <div class="col-7 col-md-12 order-md-1 min-h-0 h-full">
+        <div class="h-full">
+            <img class="object-fit-cover"  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/index_person.png?raw=true" alt="">
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!--service 區域-->
+<section class="bg-primary-900 py-80 py-md-40">
+<div class="container">
+
+  <h2 class="mb-40 mb-md-12 text-neutral-0">
+        <span class="d-block heading-xxxs heading-md-xxxxs">服務項目</span>
+        <span class="d-block heading-xxxl heading-md-xl">SERVICES</span>
+    </h2>
+
+     <div class="d-flex service-list">
+<div class="service-card bg-primary-50 col-3 p-24 p-md-12">
+ <div class="d-flex j-between">
+  <h3 class="mb-12 mb-md-8 text-neutral-700">
+        <span class="d-block heading-xxxs heading-md-xxxxs">GRAPHIC</span>
+        <span class="d-block heading-md mb-12 heading-md-sm">平面設計</span>
+    </h3>
+    <span class="material-symbols-outlined text-24">
+format_color_fill
+</span>
+</div>
+    <div class="d-flex align-items-center">  
+        <p class="label-md label-md-sm" >從品牌識別到視覺傳達，用專業設計精準傳遞核心價值</p>
+<a href="#" class="arrow-btn ml-12 bg-primary-700 rounded-full text-neutral-0" ><span class="material-symbols-outlined text-24 ">arrow_outward</span></a>
+  </div>
+
+</div>
+
+<div class="service-card bg-primary-50 col-3 p-24 p-md-12">
+ <div class="d-flex j-between">
+  <h3 class="mb-12 mb-md-8 text-neutral-700">
+        <span class="d-block heading-xxxs heading-md-xxxxs">WEBSITE</span>
+        <span class="d-block heading-md mb-12 heading-md-sm">網頁設計</span>
+    </h3>
+<span class="material-symbols-outlined">
+screenshot_monitor
+</span>
+</div>
+    <div class="d-flex align-items-center">  
+        <p class="label-md label-md-sm">美感易用並重，以 Figma 打造符合直覺的數位體驗</p>
+<a href="#" class="arrow-btn ml-12 bg-primary-700 rounded-full text-neutral-0" ><span class="material-symbols-outlined text-24 ">arrow_outward</span></a>
+  </div>
+
+</div>
+
+<div class="service-card bg-primary-50 col-3 p-24 p-md-12">
+ <div class="d-flex j-between">
+  <h3 class="mb-12 mb-md-8 text-neutral-700">
+        <span class="d-block heading-xxxs heading-md-xxxxs">FRONTEND</span>
+        <span class="d-block heading-md mb-12 heading-md-sm">前端切版</span>
+    </h3>
+<span class="material-symbols-outlined">
+web
+</span>
+</div>
+    <div class="d-flex align-items-center">  
+        <p class="label-md label-md-sm" >精準轉譯設計稿細節，建構流暢穩定 RWD 響應式網頁</p>
+<a href="#" class="arrow-btn ml-12 bg-primary-700 rounded-full text-neutral-0" ><span class="material-symbols-outlined text-24 ">arrow_outward</span></a>
+  </div>
+
+</div>
+
+<div class="service-card bg-primary-50 col-3 p-24 p-md-12">
+ <div class="d-flex j-between">
+  <h3 class="mb-12 mb-md-8 text-neutral-700">
+        <span class="d-block heading-xxxs heading-md-xxxxs">BACKEND</span>
+        <span class="d-block heading-md mb-12 heading-md-sm">後端開發</span>
+    </h3>
+<span class="material-symbols-outlined">
+data_table
+</span>
+</div>
+    <div class="d-flex align-items-center">  
+        <p class="label-md label-md-sm" >佈署穩定系統架構，串接 API 並確保數據處理安全</p>
+<a href="#" class="arrow-btn ml-12 bg-primary-700 rounded-full text-neutral-0" ><span class="material-symbols-outlined text-24 ">arrow_outward</span></a>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!--project 區域-->
+<section class="bg-primary-50 py-80">
+    <div class="container">
+ <h2 class="mb-40 mb-md-12 text-neutral-700 text-center">
+        <span class="d-block heading-xxxs  heading-md-xxxxs">專案作品</span>
+        <span class="d-block heading-xxxl heading-md-xl">PROJECTS</span>
+    </h2>
+    <!-- 絕對定位 -->
+<div class="relative mb-24">
+     <picture>
+<source 
+srcset="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/mobile/project_1.png?raw=true"
+media="(max-width: 768px)"
+/>
+    <img  class="d-block w-md-full " src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/project_1.png?raw=true" alt="">
+     </picture>
+     
+    <div class="bg-primary-50 p-40  col-4 text-center absolute col-md-12 p-md-24 ">
+<p class="label-sm mb-12 label-md-xs">Oct 16, 2025</p>
+<p class=" label-md mb-12 label-md-sm">平面設計·網頁設計</p>
+<h4 class="heading-sm mb-12 heading-md-xs">品牌視覺與電商整合，多肉植物品牌電商建置</h4>
+<p class="label-md mb-12 label-md-sm">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</p>
+    <button class="py-12 px-24 text-neutral-0 bg-primary-700 rounded-full mb-12 label-md-sm px-md-20" type="button">前往專案</button>
+</div>
+</div>
+
+<div class="relative mb-24">
+     <picture>
+<source 
+srcset="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/mobile/project_2.png?raw=true"
+media="(max-width: 768px)"
+/>
+    <img  class="b-block w-md-full " src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/project_2.png?raw=true" alt="">
+     </picture>
+     
+    <div class="bg-primary-50 p-40  col-4 text-center absolute col-md-12 p-md-24 ">
+<p class="label-sm mb-12 label-md-xs">Oct 16, 2025</p>
+<p class=" label-md mb-12 label-md-sm">平面設計·網頁設計</p>
+<h4 class="heading-sm mb-12 heading-md-xs">品牌視覺與電商整合，多肉植物品牌電商建置</h4>
+<p class="label-md mb-12 label-md-sm">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</p>
+    <button class="py-12 px-24 text-neutral-0 bg-primary-700 rounded-full mb-12 label-md-sm" type="button px-md-20">前往專案</button>
+</div>
+</div>
+
+<div class="relative mb-24">
+     <picture>
+<source 
+srcset="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/mobile/project_3.png?raw=true"
+media="(max-width: 768px)"
+/>
+    <img  class="b-block w-md-full " src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/project_3.png?raw=true" alt="">
+     </picture>
+     
+    <div class="bg-primary-50 p-40  col-4 text-center absolute col-md-12 p-md-24 ">
+<p class="label-sm mb-12 label-md-xs">Oct 16, 2025</p>
+<p class=" label-md mb-12 label-md-sm">平面設計·網頁設計</p>
+<h4 class="heading-sm mb-12 heading-md-xs">品牌視覺與電商整合，多肉植物品牌電商建置</h4>
+<p class="label-md mb-12 label-md-sm">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</p>
+    <button class="py-12 px-24 text-neutral-0 bg-primary-700 rounded-full mb-12 label-md-sm px-md-20" type="button">前往專案</button>
+</div>
+</div>
+<div class="text-center">
+ <button class="py-12 px-24 text-neutral-0 bg-primary-700 rounded-full mt-40 label-md-sm px-md-20" type="button">探索更多</button>
+</div>
+    </div>
+</section>
+
+    <!-- blog -->
+ <section class="bg-primary-50 py-80">
+    <div class="container ">
+        <div class="d-flex j-between align-items-center mb-40">
+ <h2 class="mb-40 mb-md-12 text-neutral-700">
+        <span class="d-block heading-xxxs heading-md-xxxxs">部落格</span>
+        <span class="d-block heading-xxxl heading-md-xl">BLOGS</span>
+    </h2>
+    <div>
+         <button class="py-12 px-24 btn-outline rounded-full label-md " type="button">探索更多</button>
+        </div>
+        </div>
+
+     <!-- blog 卡片 -->  
+<div class="d-flex  service-list">
+
+<div class="col-4 mr-24 mr-md-12 service-card">
+
+<a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/blog_2.png?raw=true" alt=""></a>
+<p class=" label-md mb-12 mt-12 mt-md-8  label-md-sm">UIUX設計·品牌設計·前端技術</p>
+<a href="#"><h4 class="heading-sm mb-12 heading-md-xs">10年職人手記：如何運用 Figma 與 Storybook 打造美感與邏輯兼具的企業級設計系統</h4>
+</a>
+<div class="d-flex j-between align-items-center">
+
+<p class="label-sm label-md-xs">Oct 16, 2022</p>
+<div class="d-flex  align-items-center gap-8">
+
+<div class="d-flex align-items-center ">
+    <span class="material-symbols-outlined ">
+visibility
+</span>
+<span class="label-sm label-md-xs nowrap">110 views</span>
+</div>
+
+<div class="d-flex align-items-center">
+    <span class="material-symbols-outlined ">
+share
+</span>
+<span class="label-sm label-md-xs nowrap">2 shares</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-4 mr-24 mr-md-12 service-card">
+
+<a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/blog_3.png?raw=true" alt=""></a>
+<p class=" label-md mb-12 mt-12 mt-md-8 label-md-sm">品牌設計·平面設計·UIUX設計</p>
+<a href="#"><h4 class="heading-sm mb-12 heading-md-xs">從平面識別到數位體驗：以「植感生活」為例，探討跨媒體品牌視覺在網頁上的精準轉譯</h4>
+</a>
+<div class="d-flex j-between align-items-center">
+
+<p class="label-sm label-md-xs">Oct 16, 2022</p>
+<div class="d-flex  align-items-center gap-8">
+
+<div class="d-flex align-items-center ">
+    <span class="material-symbols-outlined ">
+visibility
+</span>
+<span class="label-sm label-md-xs nowrap">110 views</span>
+</div>
+
+<div class="d-flex align-items-center">
+    <span class="material-symbols-outlined ">
+share
+</span>
+<span class="label-sm label-md-xs nowrap">2 shares</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-4 mr-24 mr-md-12 service-card">
+
+<a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/blog_5.png?raw=true" alt=""></a>
+<p class=" label-md mb-12 mt-12 mt-md-8  label-md-sm">前端技術·後端架構·AI趨勢應用</p>
+<a href="#"><h4 class="heading-sm mb-12 heading-md-xs">揭開金融 App 的設計密碼：如何優化 Open Bank API 的複雜數據呈現與後端串接安全性</h4>
+</a>
+<div class="d-flex j-between align-items-center">
+
+<p class="label-sm label-md-xs">Oct 16, 2022</p>
+<div class="d-flex  align-items-center gap-8">
+
+<div class="d-flex align-items-center ">
+    <span class="material-symbols-outlined ">
+visibility
+</span>
+<span class="label-sm label-md-xs nowrap">110 views</span>
+</div>
+
+<div class="d-flex align-items-center">
+    <span class="material-symbols-outlined ">
+share
+</span>
+<span class="label-sm label-md-xs nowrap">2 shares</span>
+</div>
+</div>
+</div>
+</div>
+  <!-- flex --> 
+</div>    
+
+</div>
+</section>
+
+  <!-- 訂閱 --> 
+     <section class="subscription">
+<div class="container p-md-0">
+<div class="min-h-440 d-flex flex-wrap align-items-center">
+
+<div class="col-5 col-md-12 mr-24 m-md-0">
+<img class="w-md-full" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/subscription.png?raw=true" alt="">
+</div>
+
+<div class="subscription-info col-7  align-items-center col-md-12 w-md-full px-40 py-80 py-md-40 px-md-12">
+  <h2 class="mb-24 mb-md-12">
+        <span class="d-block text-neutral-0 heading-xxxs heading-md-xxxxs">電子報訂閱</span>
+        <span class="subscription-title d-block text-neutral-0 heading-xxxl heading-md-xl mb-24">SUBSCRIPTION</span>
+    </h2>
+    <p class=" text-neutral-0 label-md mb-24 label-md-sm">你也在追求設計美感與技術落地的完美平衡嗎？作為資深設計師兼工程師，我深知跨領域協作的痛點。訂閱電子報，我將分享如何利用 AI 工具提升產能！</p>
+
+    <form class=" d-flex align-items-center btn-outline-w rounded-full">
+<input class="w-full pl-32 placeholder-font" type="email" placeholder="電子信箱">
+<button class=" bg-neutral-0 text-neutral-700 rounded-full px-24  py-12 m-8 flex-shrink label-md px-md-20 label-md-sm" type="submit">送出</button>
+</form>
+
+</div>
+
+</div>
+</div>
+     </section>
+
+    <!-- 頁尾 -->
+<footer class="bg-primary-900 text-neutral-0 py-80 py-md-40">
+    <div class="container">
+<div class="d-flex flex-md-col">
+    <div class="col-5 col-md-12">
+   
+    <h2 class="mb-24 mb-md-12">
+        <span class="d-block heading-xxxs heading-md-xxxxs">與我聯絡</span>
+        <span class="d-block heading-xxxl heading-md-xl">CONTACT</span>
+    </h2>
+    <p class="label-md mb-4 label-md-sm">若有數位產品設計和開發相關問題</p>
+    <p class="label-md mb-92 mb-md-24 label-md-sm">歡迎填寫表單 或 直接與我聯絡！</p>
+<div class="d-block d-md-none">
+    <div class="d-flex align-items-center mb-24 gap-12">
+        <a href="#" class="p-12 rounded-full btn-outline line-height-1"><i class="bi bi-instagram text-24 "></i></a>
+<a href="#" class="p-12 rounded-full btn-outline line-height-1"><i class="bi bi-line text-24 "></i></a>
+<a href="#" class="p-12 rounded-full btn-outline line-height-1"><i class="bi bi-linkedin text-24 "></i></a>
+    </div>
+<!-- 信箱資訊 -->
+    <div>
+         <a href="mailto:service@hexschool.com" class="d-flex gap-8">
+        <span class="material-symbols-outlined text-24">drafts</span>
+       <p class="label-md">service@hexschool.com</p>
+       </a>
+    </div>
+</div>
+
+<!-- col-5 -->
+</div>
+
+     <div class="col-7 col-md-12">
+        <form class="d-flex flex-wrap gap-24 px-40 px-md-0">
+            <input class="placeholder-font btn-outline rounded-40 contact-input-half  label-md px-32 py-20 w-md-full  px-md-20 py-md-16" type="text" placeholder="姓名">
+            <input class=" placeholder-font btn-outline rounded-40 contact-input-half label-md px-32 py-20 w-md-full px-md-20 py-md-16" type="tel" placeholder="手機號碼">
+            <input class="placeholder-font btn-outline rounded-40 w-full label-md px-32 py-20 px-md-20 py-md-16" type="email" placeholder="電子信箱">
+            <textarea class="placeholder-font btn-outline rounded-40 w-full label-md px-32 py-20 px-md-20 py-md-16" rows="4" placeholder="備註"></textarea>
+            <button class="bg-neutral-0 text-neutral-700 rounded-full py-12 w-full text-center " type="submit">送出</button>
+     </div>
+<!-- 行動裝置 -->
+     <div class="d-none d-md-block mt-24">
+    <div class="d-flex align-items-center mb-24 gap-12">
+        <a href="#" class="p-12 rounded-full btn-outline"><i class="bi bi-instagram text-24 line-height-1"></i></a>
+<a href="#" class="p-12 rounded-full btn-outline"><i class="bi bi-line text-24 line-height-1"></i></a>
+<a href="#" class="p-12 rounded-full btn-outline"><i class="bi bi-linkedin text-24 line-height-1"></i></a>
+    </div>
+<!-- 信箱資訊 -->
+    <div>
+         <a href="mailto:service@hexschool.com" class="d-flex gap-8">
+        <span class="material-symbols-outlined text-24">drafts</span>
+       <p class="label-md">service@hexschool.com</p>
+       </a>
+    </div>
+</div>
+
+<!-- 不動 -->
+    </div>
+</div>
+</footer>
+    <script src="./index.js"></script>
+</body>
+</html>
